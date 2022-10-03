@@ -1,0 +1,28 @@
+{
+  "agent": {
+    "metrics_collection_interval": 10,
+    "logfile": "/opt/aws/amazon-cloudwatch-agent/logs/amazon-cloudwatch-agent.log"
+  },
+  "logs": {
+    "logs_collected": {
+      "files": {
+        "collect_list": [
+          {
+            "file_path": "/var/log/secure",
+            "log_group_name": "ec2-var-log-secure.log",
+            "log_stream_name": "ec2-var-log-secure.log",
+            "filters": [
+              {
+                "type": "include",                
+                "expression": "sshd"
+              }
+            ],
+            "timezone": "UTC"
+          }
+        ]
+      }
+    },
+    "log_stream_name": "ec2-var-log-secure",
+    "force_flush_interval" : 15
+  }
+}
