@@ -1,0 +1,2 @@
+# GuardDuty Checks
+## High:0 Medium:0 Low:0 

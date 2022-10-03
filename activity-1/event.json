@@ -1,0 +1,12 @@
+{
+  "invokingEvent": "{\"configurationItem\":{\"configurationItemCaptureTime\":\"2016-02-17T01:36:34.043Z\",\"awsAccountId\":\"123456789012\",\"configurationItemStatus\":\"OK\",\"resourceId\":\"i-00000000\",\"ARN\":\"arn:aws:ec2:us-east-2:123456789012:instance/i-00000000\",\"awsRegion\":\"us-east-2\",\"availabilityZone\":\"us-east-2a\",\"resourceType\":\"AWS::EC2::Instance\",\"tags\":{\"Foo\":\"Bar\"},\"relationships\":[{\"resourceId\":\"eipalloc-00000000\",\"resourceType\":\"AWS::EC2::EIP\",\"name\":\"Is attached to ElasticIp\"}],\"configuration\":{\"foo\":\"bar\"}},\"messageType\":\"ConfigurationItemChangeNotification\"}",
+  "ruleParameters": "{\"desiredInstanceType\":\"t2.micro\"}",
+  "resultToken": "myResultToken",
+  "eventLeftScope": false,
+  "executionRoleArn": "arn:aws:iam::143230255374:role/config-role",
+  "configRuleArn": "arn:aws:config:us-east-1:143230255374:config-rule/config-rule-0123456",
+  "configRuleName": "change-triggered-config-rule",
+  "configRuleId": "config-rule-0123456",
+  "accountId": "143230255374",
+  "version": "1.0"
+}
